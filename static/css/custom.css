@@ -30,7 +30,7 @@ body {
 .label {
     font-family: "Kanit", Helvetica, Arial, sans-serif;
     font-weight: normal;
-    text-transform: uppercase;
+    text-transform: upercase;
 }
 
 /* pager*/
@@ -38,7 +38,6 @@ body {
     margin: 24px 0;
     border-top: solid 1px #cdcdcd;
     padding-top: 24px;
-    text-transform: uppercase;
     letter-spacing: 0.1em;
     font-size: 14px;
     font-family: "Kanit", Helvetica, Arial, sans-serif;
@@ -52,6 +51,18 @@ body {
     border-radius: 0;
 }
 
+.sidebar-heading  {
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    letter-spacing: 0.1em; 
+    text-transform: none;
+      
+}
+.small-navbar-heading {
+    font-family: 'Caveat', cursive;
+    text-transform: none;
+    font-size: 30px;
+}
 /* type */
 h1,
 h2,
@@ -66,7 +77,17 @@ h6,
 .h5,
 .h6 {
     font-family: "Kanit", Helvetica, Arial, sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 1.2;
     color: #000000;
+    font-weight: regular;
+    text-transform: none;
 }
+
+.box-masonry h4 {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: 0.1em;
+  }
