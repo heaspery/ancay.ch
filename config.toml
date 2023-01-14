@@ -13,9 +13,9 @@ googleAnalytics = ""
   style = "sea"
   description = "Mon portfolio en ligne"
   copyright = "&copy; 2023 Mathilde Ançay"
-  sidebarAbout = [
-    "Artiste et étudiante suisse actuellement sur Lausanne",
-    "Swiss artist and student currently based in Lausanne"
+    sidebarAbout = [
+     "",
+    
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
