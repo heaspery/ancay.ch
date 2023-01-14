@@ -10,9 +10,9 @@ googleAnalytics = ""
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
-  style = "default"
-  description = "Describe your website"
-  copyright = "&copy;2016 Mathilde Ançay"
+  style = "sea"
+  description = "Mon portfolio en ligne"
+  copyright = "&copy; 2023 Mathilde Ançay"
   sidebarAbout = [
     "Artiste et étudiante suisse actuellement sur Lausanne",
     "Swiss artist and student currently based in Lausanne"
@@ -29,7 +29,7 @@ googleAnalytics = ""
      # - send a dummy email yourself to confirm your account
      # - click the confirm link in the email from www.formspree.io
      # - you're done. Happy mailing!
-  email = "you@yoursite.com"
+ # email = "you@yoursite.com"
 
     # Optional Matomo analytics (formerly piwik)
       # [params.analytics.matomo]
@@ -55,8 +55,8 @@ googleAnalytics = ""
   url = "contact/"
 
   [params.social]
-  email         ="mathilde.ancay@gmail.com"
-  linkedin      = "full profile url in linkedin"
-  instagram     = "full profile url in instagram"
-  github        = "full profile url in github"
-  gitlab        = "full profile url in gitlab"
+  email         ="ancay.mathilde@gmail.com"
+  # linkedin      = "full profile url in linkedin"
+  instagram     = "https://instagram.com/mathancay"
+  github        = "https://github.com/heaspery/ancay.ch"
+  
