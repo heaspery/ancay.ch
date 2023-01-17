@@ -3,12 +3,15 @@ draft = false
 image = "/images/bd1.jpg"
 date = "2016-11-05T19:56:17+05:30"
 title = "Bande Dessinée"
-showonlyimage = true
+showonlyimage = false
 weight = 6
 +++
 
 Fifth abundantly made Give sixth hath. Cattle creature i be don't them.
 <!--more-->
+
+![Bienvenu à Dohr](/images/bd2.jpg "Planches BD Bienvenu à Dohr") 
+
 
 Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
 
