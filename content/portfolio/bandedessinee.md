@@ -1,9 +1,9 @@
 +++
 draft = false
-image = "badgeMatthieu.png"
+image = "/images/bd1.jpg"
 date = "2016-11-05T19:56:17+05:30"
 title = "Bande Dessinée"
-showonlyimage = false
+showonlyimage = true
 weight = 6
 +++
 
