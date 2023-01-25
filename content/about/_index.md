@@ -12,9 +12,9 @@ Dans mon temps libre, je continue tout de même à créer. Que ce soit dans le d
 #### Projets - Projects
 * En cours : Développement d'un jeu vidéo "This Way"
 * Depuis 2022 : Développement d'une identitée visuelle pour la brasserie MFP 
+* Depuis 2019 : Développement du jeu de carte _La Joute des héros_
 * 2022 : Exposition Société des écrivains valaisans, collaboration avec Leïla Dorsaz, écrivaine
 * 2021 : Développement d'un jeu vidéo, _La Bataille de Salesbière_
-* 2019 à ce jour : Développement du jeu de carte _La Joute des héros_
 * Participation à plusieurs Game Jam 
 
 
