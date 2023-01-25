@@ -15,13 +15,17 @@ weight = 6
 
 Ici, quelques planches du projet _Bienvenu à Dohr_ réalisé à l'Edhea
 
-![Bienvenu à Dohr](/images/bd2.jpg "Planches BD Bienvenu à Dohr") 
+![Bienvenu à Dohr](/images/bd.2.5.png "Planches BD Bienvenu à Dohr") 
+
+
 _Scan de planches réalisées à la main, avec une technique mixte principalement réalisée avec des feutres_  
 
 ---
 #### L'Homme Sauvage
 
-Durant mes séminaires à l'Université, j'ai pu illustrer certains travaux sous forme de bande dessinée. Ici est un extrait d'une transfictionnalité nommée _L'Homme Sauvage_ sur le personnage de Merlin dans L'Histoire de Grisandole, un récit médiéval. 
+Durant mes séminaires à l'Université, j'ai pu illustrer certains travaux sous forme de bande dessinée. Par exemple en philosophie, j'ai réalisé une vulgarisation de la Poétique de Aristote sous ce format. J'en ai également réalisée lors d'un cours de français dont je vous montre l'exemple ici. C'est un extrait d'une transfictionnalité nommée _L'Homme Sauvage_ sur le personnage de Merlin dans _L'Histoire de Grisandole_, un récit médiéval. 
 
-![L'homme sauvage](/images/bd3.png "Extrait de l'Homme Sauvage") 
+![L'homme sauvage](/images/bd.3.3.png "Extrait de l'Homme Sauvage") 
 _Scan de planches réalisées à la main dans un carnet, avec une technique mixte_
+
+
