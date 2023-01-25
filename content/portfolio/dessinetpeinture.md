@@ -6,28 +6,10 @@ date = "2016-11-05T18:25:22+05:30"
 title = "Dessin et peinture"
 weight = 1
 +++
+Dans mon évolution artistique, je prévilégie des matériaux et outils de récupérations. Cela donne à mes dessins parfois des couleurs effacées ou me pousse à devoir élaborer des techniques pour exploiter les objets à leur maximum. Cela est dans un souci d'écologie et d'envie de ma part de ne pas jeter ce qui a encore du potentiel de création et l'explorer. La technique mixte que j'utilise s'y prête bien, car elle permet de ne pas avoir de contrainte matérielle et s'ouvre à toutes sortes d'expérimentations.
+Bien que cette activité me passionne, je suis aussi toujours en réflexion par rapport à la surproduction actuelle, que ce soit dans le domaine artistique ou dans tous les autres. Ainsi, il m'arrive de ne plus avoir envie de produire ou de réfléchir sur de nouveaux formats artistiques qui impliquent le moins d'encombrements possibles. Je pense aux supports digitaux, bien qu'il possède aussi une matérialité, bien que différente ou alors des productions dans l'espace, de la lumière et de la musique.
+ 
 
-Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life. One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
-<!--more-->
 ![Dessin Statue David](/images/dessin2.jpg "Dessin Statue David")
 
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
-
-A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-
-1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-2. Aliquam tincidunt mauris eu risus.
-
-> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
-
-## Header Level 2
-
-Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
-
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
-
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-
-When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then  
