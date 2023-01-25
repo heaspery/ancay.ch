@@ -8,7 +8,7 @@ weight = 6
 +++
 
 À plusieurs reprises, j'ai eu l'occasion de m'intéresser au format de la bande dessinée. Je l'apprécie particulièrement car il permet de rendre les dessins plus dynamiques, 
-puisque guidés par une narration. Je suis beaucoup inspirée de certains romans graphiques : j'essaie de raconter en mettant très peu de texte et de dialogue.  
+puisque guidés par une narration. Je suis beaucoup inspirée par certains romans graphiques : j'aime raconter avec très peu de texte et de dialogue.  
   
 ---
 
