@@ -1,7 +1,7 @@
 +++
 showonlyimage = false
 draft = false
-image = "/images/dessin1.jpg"
+image = "/images/dessin2.jpg"
 date = "2016-11-05T18:25:22+05:30"
 title = "Dessin et peinture"
 weight = 1
@@ -17,9 +17,10 @@ Dans un de mes cours de design, nous avions comme instruction de créer un panel
 
 
 ![Instants Carrés](/images/dessin3.png "Instants Carrés")
+
 _Techniques mixtes, vieux stylos, feutres, crayons, 15x15cm, 2020._
 
---- 
+---
 
 #### Jeux de Typo
 Une exploration de différents designs de typographie
@@ -30,6 +31,8 @@ _Feutre à alcool, 10 x 20 cm, 2020._
 --- 
 
 #### Dessin divers
-En plus de ces différents projets, je crée dans mon temps libre avec d'autres techniques telles que la peinture, l'encre de Chine, de la linogravure, etc.
+En plus de ces différents projets, je crée dans mon temps libre avec d'autres techniques telles que la peinture, l'encre de Chine,  la linogravure, etc.
 
-![linogravure](/images/dessin6.png "linogravure")
+![Linogravure](/images/dessin6.png "Linogravure")
+
+_Linogravure, 25 x 15 cm, 2021._

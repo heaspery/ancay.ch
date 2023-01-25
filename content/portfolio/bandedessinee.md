@@ -19,7 +19,7 @@ Ici, quelques planches du projet _Bienvenu à Dohr_ réalisé à l'Edhea
 ![Bienvenu à Dohr](/images/bd.2.5.png "Planches BD Bienvenu à Dohr") 
 
 
-_Scan de planches réalisées à la main, avec une technique mixte principalement réalisée avec des feutres, format A4_  
+_Scan de planches réalisées à la main, avec une technique mixte principalement avec des feutres, format A4_  
 
 ---
 #### L'Homme Sauvage
