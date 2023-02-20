@@ -16,7 +16,7 @@ J'ai eu la chance d'être invité pour présenter ce jeu sur le stand du scienti
 
 #### This Way
 
-This Way est un projet en cours de création. C'est un plateformer sur Godot, en quelques niveaux. Je m'occupe à la fois de la création des graphismes du jeu que de la programation. À force de créer des lettres de motivation pour chercher un travail, il m'est venu l'idée de créer un jeu vidéo dont je serais le personnage principal. Les différents niveaux représentent mon parcours dans mes formations et travaux. J'y collecte des points de compétences. Grâce à ce jeu, je peux à la fois présenter mon itinéraire professionnel au joueur, mais également lui démontrer mes compétences techniques et créatives. 
+This Way est un projet en cours de création. C'est un plateformer sur Godot, en quelques niveaux. Je m'occupe à la fois de la création des graphismes du jeu que de la programmation. À force de créer des lettres de motivation pour chercher un travail, il m'est venu l'idée de créer un jeu vidéo dont je serais le personnage principal. Les différents niveaux représentent mon parcours dans mes formations et travaux. J'y collecte des points de compétences. Grâce à ce jeu, je peux à la fois présenter mon itinéraire professionnel au joueur, mais également lui démontrer mes compétences techniques et créatives. 
 
 ---
 

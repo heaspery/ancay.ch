@@ -7,8 +7,7 @@ title = "Dessin et peinture"
 weight = 1
 +++
 
-Dans mon évolution artistique, je prévilégie des matériaux et outils de récupérations. Cela donne à mes dessins parfois des couleurs effacées ou me pousse à devoir élaborer des techniques pour exploiter les objets à leur maximum. Cela est dans un souci d'écologie et d'envie de ma part de ne pas jeter ce qui a encore du potentiel de création et l'explorer. La technique mixte que j'utilise s'y prête bien, car elle permet de ne pas avoir de contrainte matérielle et s'ouvre à toutes sortes d'expérimentations.
-Bien que cette activité me passionne, je suis aussi toujours en réflexion par rapport à la surproduction actuelle, que ce soit dans le domaine artistique ou dans tous les autres.
+ Je prévilégie des matériaux et outils de récupérations. Cela donne à mes dessins parfois des couleurs effacées ou me pousse à devoir élaborer des techniques pour exploiter les objets à leur maximum. Cela est dans un souci d'écologie et d'envie de ma part de ne pas jeter ce qui a encore du potentiel de création et l'explorer. La technique mixte que j'utilise s'y prête bien, car elle permet de ne pas avoir de contrainte matérielle et s'ouvre à toutes sortes d'expérimentations.
 
 --- 
 #### Instants Carrés
