@@ -3,10 +3,6 @@ date = "2016-11-05T21:05:33+05:30"
 title = "Présentation"
 +++
 
-Après mon gymnase, j'ai effectué une année propédeutique à l'Ecole de Design et la Haute école d'Art de Sierre. Puis, j'ai emménagé à Lausanne. J'y ai obtenu un bachelor en Lettres en philosophie et français médiéval en février 2023. 
-Arrivée à ce stade, je ne souhaite pas continuer mes études en lettres, ni travailler dans l'éducation. C'est alors que je découvre enfin une formation qui m'intéresse complètement : un bachelor en ingénierie des médias à la Haute Ecole d'Ingénierie et de Gestion du canton de Vaud. Il comprend plusieurs pôles, celui de l'informatique, du marketing et communication ainsi que la gestion de projet. J'ai le souhait de le débuter en septembre 2023. 
-
-Dans mon temps libre, je continue tout de même à créer. Que ce soit dans le dessin, la peinture, des projets d'identités visuelles ou des projets informatiques. 
 
 
 #### Projets - Projects
@@ -21,6 +17,7 @@ Dans mon temps libre, je continue tout de même à créer. Que ce soit dans le d
 
 
 #### Formation - Education
+* Depuis l'automne 2023 : Bachelor en Ingénierie des médias à la Haute École d'Ingénierie du Canton de Vaud
 * 2019-2023 : Université de Lausanne, Bachelor en français médiéval et philosophie
 * 2018-2019 : EDHEA, année propédeutique en Arts Visuels 
 * 2013-2018 : College de St.Maurice, Maturité gymnasiale en Arts Visuels 
