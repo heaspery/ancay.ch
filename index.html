@@ -1,66 +1,164 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site en construction</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #0e2748;
-        }
-        .container {
-            text-align: center;
-            flex-grow: 1;
-        }
-        h1 {
-            font-size: 2.5rem;
-            color: #333;
-        }
-        .smiley {
-            font-size: 5rem;
-            margin: 20px 0;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            width: 100%;
-            position: absolute;
-            bottom: 0;
-        }
-        footer p {
-            margin: 0;
-        }
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 1.8rem;
-            }
-            .smiley {
-                font-size: 3.5rem;
-            }
-        }
-        h4 {
-            font-size: 1.5rem;
-            color: "red";
-        }
-    </style>
+    <link rel="stylesheet" href="main.css">
+    <title>Mathilde Ançay</title>
 </head>
+
 <body>
-    <div class="container">
-        <h4>Site actuellement en construction</h1>
-        
-    </div>
-    <footer>
-        <p>&copy; 2024 Mathilde Ançay</p>
-    </footer>
+    <header>
+        <h1 id="name">Mathilde Ançay</h1>
+    <nav>
+        <a href="#curriculum-vitae">Curriculum Vitae</a>
+        <a href="#projets">Projets</a>
+        <a href="#contact">Contact</a>
+    </nav>
+        </header>
+    <main class="container">
+
+        <section id="curriculum-vitae">
+            <h1>Curriculum Vitae</h1>
+            <h2>Formation</h2>
+            <li>
+                <ol>
+                    <h4>2023-2026</h4>
+                    <h3>Bachelor en Ingénerie des Médias</h3>
+                    <p>Haute-école d'Ingénerie et de gestion du canton de Vaud</p>
+                </ol>
+                <ol>
+                    <h4>2019-2023</h4>
+                    <h3>Bachelor en Lettres</h3>
+                    <p>En français médiéval et philosophie, Université de Lausanne</p>
+                </ol>
+                <ol>
+                    <h4>2018-2019</h4>
+                    <h3>Année propédeutique</h3>
+                    <p>Haute-école d'Art et de Design du Valais</p>
+                </ol>
+            </li>
+            <h2>Expériences professionnelles</h2>
+            <li>
+                <ol>
+                    <h5>2025</h5>
+                    <h4>Avalia Systems, Yverdon-les-Bains</h4>
+                    <h3>Développeuse full-stack</h3>
+                    <p>Pour une durée de 6 semaines, j'ai travaillé en tant que développeuse full-stack où j'ai eu
+                        l'occasion d'apprendre de nouvelles technologies et mettre en pratique les connaissances
+                        acquises durant mes formations.
+                    </p>
+                    <ol>
+                        <li>
+                            Apprentissage de nouvelles technologies (React, Backstage, TypeScript, etc.)
+                        </li>
+                        <li>
+                            Mise en pratique et développement d'une application web
+                        </li>
+                    </ol>
+                </ol>
+                <ol>
+                    <h5>2023</h5>
+                    <h4>HEIG-VD, LA FABRIK</h4>
+                    <h3>Assistante étudiante</h3>
+                    <p>Pour une durée de 4 mois, j'étais responsable de la création des supports de communication de LA
+                        FABRIK, cellule d'innovation de la HEIG-VD</p>
+                    <ol>
+                        <li>
+                            Développement d'identités visuelles
+                        </li>
+                        <li>
+                            Création de contenu de communication (affiches, posts réseaux sociaux, etc.)
+                        </li>
+                    </ol>
+                </ol>
+                <ol>
+                    <h5>2023</h5>
+                    <h4>Groupe R Management, Fribourg</h4>
+                    <h3>Stage en marketing</h3>
+                    <p>Durant ce stage de 5 mois, j’ai acquis les bases des compétences en
+                        communication interne et externe.</p>
+                    <ol>
+                        <li>
+                            Design Graphique et montage vidéo
+                        </li>
+                        <li>
+                            Gestion des réseaux sociaux : création de contenu, planification, analyse
+                        </li>
+                        <li>
+                            Gestion des newsletters : création de contenu, planification, analyse
+                        </li>
+                        <li>
+                            Gestion des sites web : création de contenu, SEO
+                        </li>
+                    </ol>
+                </ol>
+                <ol>
+                    <h5>2016-2018</h5>
+                    <h4>Groupe R Management, Fribourg</h4>
+                    <h3>Animatrice en médiation culturelle</h3>
+                    <p>Durant mes deux dernières années de bachelor, j’ai été engagée pour développer
+                        un jeu de cartes pour le département de médiation culturelle de l’Université.</p>
+                    <ol>
+                        <li>
+                            Recherches scientifiques
+                        </li>
+                        <li>
+                            Design du jeu de cartes </li>
+                        <li>
+                            Médiation et présentation du jeu au grand public </li>
+                    </ol>
+                </ol>
+
+            </li>
+            <h2>Compétences</h2>
+            <ul>
+                <h3>
+                    Techniques
+                </h3>
+                <p>HTML, CSS, Tailwind CSS, JS, Laravel,
+                    PHP, Java, SQL, Vite, Vue, React, Typescript</p>
+                <h3>Logiciels</h3>
+                <p>Figma, Photoshop, Illustrator, InDesign, WordPress, Notion, Trello, Miro</p>
+                <h3>Interpersonnelles</h3>
+                <p>Travail en équipe, gestion de projet, créativité, capacités rédactionnelles</p>
+                <h3>Langues</h3>
+                <ul>
+                    <li>Français : langue maternelle</li>
+                    <li>Anglais : courant (C1)</li>
+                    <li>Allemand : intermédiaire (B2)</li>
+                </ul>
+            </ul>
+        </section>
+
+        <section id="projets">
+            <h1>Projets</h1>
+            <ul>
+                <li>
+                    <h3>2024</h3>
+                    <h2>Fully en Transition</h2>
+                    <img src="https://placehold.co/250x250" alt="Fully-en-Transition">
+                    <p>Élaboration de l'identité visuelle, de la charte graphique et du site web de l'association Fully
+                        en Transition.</p>
+                </li>
+                <li>
+                    <h3>2024-2025</h3>
+                    <h2>Artios</h2>
+                    <img src="https://placehold.co/250x250" alt="Fully-en-Transition">
+                    <p>Élaboration de l'identité visuelle, de la charte graphique et des maquettes du site de
+                        l'entreprise Artios</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h1>Contact</h1>
+            <p>Je suis ouverte à toutes discussions !</p>
+            <p>Vous pouvez me contacter via l'addresse mathilde@ancay.ch</p>
+
+        </section>
+    </main>
 </body>
+
 </html>
