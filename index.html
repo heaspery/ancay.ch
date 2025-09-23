@@ -1,66 +1,238 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site en construction</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #0e2748;
-        }
-        .container {
-            text-align: center;
-            flex-grow: 1;
-        }
-        h1 {
-            font-size: 2.5rem;
-            color: #333;
-        }
-        .smiley {
-            font-size: 5rem;
-            margin: 20px 0;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            width: 100%;
-            position: absolute;
-            bottom: 0;
-        }
-        footer p {
-            margin: 0;
-        }
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 1.8rem;
-            }
-            .smiley {
-                font-size: 3.5rem;
-            }
-        }
-        h4 {
-            font-size: 1.5rem;
-            color: "red";
-        }
-    </style>
+    <link rel="stylesheet" href="main.css">
+    <title>Mathilde Ançay</title>
 </head>
+
 <body>
-    <div class="container">
-        <h4>Site actuellement en construction</h1>
-        
-    </div>
+    <header>
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-shell-icon lucide-shell">
+            <path
+                d="M14 11a2 2 0 1 1-4 0 4 4 0 0 1 8 0 6 6 0 0 1-12 0 8 8 0 0 1 16 0 10 10 0 1 1-20 0 11.93 11.93 0 0 1 2.42-7.22 2 2 0 1 1 3.16 2.44" />
+        </svg>
+        <h1 id="name">Mathilde Ançay</h1>
+        <nav>
+            <a href="#curriculum-vitae">Curriculum Vitae</a>
+            <a href="#projets">Projets</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main class="container">
+        <section id="curriculum-vitae">
+            <h1>Curriculum Vitae</h1>
+
+            <div>
+                <h2>Formations</h2>
+                <ol>
+                    <li>
+                        <h4>2023-2026</h4>
+                        <h3>Bachelor en Ingénierie des Médias</h3>
+                        <p>Haute-école d'Ingénerie et de gestion du canton de Vaud</p>
+                    </li>
+                    <li>
+                        <h4>2019-2023</h4>
+                        <h3>Bachelor en Lettres</h3>
+                        <p>En français médiéval et philosophie, Université de Lausanne</p>
+                    </li>
+                    <li>
+                        <h4>2018-2019</h4>
+                        <h3>Année propédeutique</h3>
+                        <p>Haute-école d'Art et de Design du Valais</p>
+                    </li>
+                </ol>
+            </div>
+            <div>
+                <h2>Expériences professionnelles</h2>
+                <ol>
+                    <li class="job">
+                        <h4>2025</h4>
+                        <h3>Développeuse full-stack</h3>
+
+                        <div class="job-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-map-pin-icon lucide-map-pin">
+                                <path
+                                    d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                            <h5>Avalia Systems, Yverdon-les-Bains</h5>
+                        </div>
+
+                        <p>Pour une durée de 6 semaines, j'ai travaillé en tant que développeuse full-stack où j'ai eu
+                            l'occasion d'apprendre de nouvelles technologies et mettre en pratique les connaissances
+                            acquises durant mes formations.
+                        </p>
+                        <ol>
+                            <li>
+                                Apprentissage de nouvelles technologies
+                            </li>
+                            <li>
+                                Mise en pratique et développement d'une application web
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="job">
+                        <h4>2023</h4>
+                        <h3>Assistante-étudiante</h3>
+                        <div class="job-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-map-pin-icon lucide-map-pin">
+                                <path
+                                    d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                            <h5>HEIG-VD LA FABRIK, Yverdon-les-Bains</h5>
+                        </div>
+
+
+                        <p>Pour une durée de 4 mois, j'étais responsable de la création des supports de communication de
+                            LA
+                            FABRIK, cellule d'innovation de la HEIG-VD</p>
+                        <ol>
+                            <li>
+                                Développement d'identités visuelles
+                            </li>
+                            <li>
+                                Création de contenu de communication (affiches, posts réseaux sociaux, etc.)
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="job">
+                        <h4>2023</h4>
+                        <h3>Stagiaire en marketing</h3>
+                        <div class="job-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-map-pin-icon lucide-map-pin">
+                                <path
+                                    d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                            <h5>Groupe R Management, Fribourg</h5>
+                        </div>
+
+                        <p>Durant ce stage de 5 mois, j’ai acquis les bases des compétences en
+                            communication interne et externe.</p>
+                        <ol>
+                            <li>
+                                Design Graphique et montage vidéo
+                            </li>
+                            <li>
+                                Gestion des réseaux sociaux : création de contenu, planification, analyse
+                            </li>
+                            <li>
+                                Gestion des newsletters : création de contenu, planification, analyse
+                            </li>
+                            <li>
+                                Gestion des sites web : création de contenu, SEO
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="job">
+                        <h4>2016-2018 </h4>
+                        <h3>Animatrice en médiation culturelle</h3>
+                        <div class="job-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-map-pin-icon lucide-map-pin">
+                                <path
+                                    d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                            <h5>L'Éprouvette, Université de Lausanne</h5>
+                        </div>
+                        <p>Durant les deux dernières années de mon bachelor en Lettres, j’ai été engagée pour développer
+                            un jeu de cartes pour le département de médiation culturelle de l’Université.</p>
+                        <ol>
+                            <li>
+                                Recherches scientifiques
+                            </li>
+                            <li>
+                                Design du jeu de cartes </li>
+                            <li>
+                                Médiation et présentation du jeu au grand public </li>
+                        </ol>
+                    </li>
+                </ol>
+
+            </div>
+            <div id="skills">
+                <h2>Compétences</h2>
+                <ul>
+                    <h3>
+                        Techniques
+                    </h3>
+                    <p>HTML, CSS, Tailwind CSS, JS, Laravel,
+                        PHP, Java, SQL, Vite, Vue, React, Typescript</p>
+                    <h3>Logiciels</h3>
+                    <p>Figma, Photoshop, Illustrator, InDesign, WordPress, Notion, Trello, Miro</p>
+                    <h3>Interpersonnelles</h3>
+                    <p>Travail en équipe, gestion de projet, créativité, capacités rédactionnelles</p>
+                    <h3>Langues</h3>
+                    <ul>
+                        <li><span>Français :</span> Langue maternelle</li>
+                        <li><span>Anglais :</span> Courant (C1)</li>
+                        <li><span>Allemand :</span> Intermédiaire (Diplôme B2)</li>
+                    </ul>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projets">
+            <h1>Projets</h1>
+            <ul>
+                <li>
+                    <h4>2024-2025</h4>
+                    <img src="./assets/logo_FET.png" alt="Fully-en-Transition">
+                    <p>Élaboration de l'identité visuelle, de la charte graphique et du <a
+                            href="fullyentransition.ch">site web de l'association Fully
+                            en Transition</a> dont je suis également membre.</p>
+                </li>
+                <li>
+                    <h4>2024-2025</h4>
+                    <img src="./assets/logo_artios.png" alt="Fully-en-Transition">
+                    <p>Élaboration de l'identité visuelle, de la charte graphique et des maquettes du site de
+                        l'entreprise Artios.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h1>Contact</h1>
+            <p>Je suis ouverte à toutes discussions !</p>
+            <p>Vous pouvez me contacter via l'addresse <a href="mailto:mathilde@ancay.ch">mathilde@ancay.ch</a></p>
+
+        </section>
+    </main>
     <footer>
-        <p>&copy; 2024 Mathilde Ançay</p>
+        <ul class="socials">
+            <li><a href="https://github.com/heaspery"></a><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" class="lucide lucide-github-icon lucide-github">
+                    <path
+                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                    <path d="M9 18c-4.51 2-5-2-7-2" />
+                </svg></li>
+            <li><a href="https://www.linkedin.com/in/mathilde-an%C3%A7ay-2b4b84236/"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-linkedin-icon lucide-linkedin">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                        <rect width="4" height="12" x="2" y="9" />
+                        <circle cx="4" cy="4" r="2" />
+                    </svg></a></li>
+        </ul>
+        <p> Made with ♥ by Mathilde Ançay
+        </p>
     </footer>
 </body>
+
 </html>
