@@ -15,9 +15,9 @@ const link = project.links || "yes";
 
 <template>
     <div class="mx-auto bg-amber-50 px-4 max-w-4xl flex flex-col items-start mt-12">
-        <a href="/projects">
+        <RouterLink to="/projects" class="inline-flex items-center text-sm font-medium">
             <Undo2 :stroke-width="1.5" />
-        </a>
+        </RouterLink>
     </div>
     <section v-if="project"
         class="container mx-auto px-4 bg-amber-50 mb-12 pt-12 pb-12 gap-2 md:gap-8 max-w-4xl flex flex-col items-center">
@@ -32,13 +32,15 @@ const link = project.links || "yes";
             </div>
             <div class="basis-lg">
                 <img :src="resolveIllustration(project.illustrations[0].path)" alt="Image du projet"
-                    class="w-full h-auto object-contain" :class="project.illustrations[0].isMockup ? '' : 'border drop-shadow-2xl'"/>
-                    
+                    class="w-full h-auto object-contain"
+                    :class="project.illustrations[0].isMockup ? '' : 'border drop-shadow-2xl'" />
+
             </div>
         </div>
 
         <div>
-            <div v-if="project.illustrations[1]" :class="project.illustrations[1].isMockup ? '' : 'border drop-shadow-2xl'">
+            <div v-if="project.illustrations[1]"
+                :class="project.illustrations[1].isMockup ? '' : 'border drop-shadow-2xl'">
                 <img :src="resolveIllustration(project.illustrations[1].path)" alt="Image du projet"
                     class="w-full h-auto object-contain" />
             </div>
