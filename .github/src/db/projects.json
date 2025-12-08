@@ -1,0 +1,132 @@
+{
+  "portfolio": [
+    {
+      "id": 2,
+      "annees": "2024",
+      "titre": "Focus",
+      "type": "projet",
+      "domaines": ["design"],
+      "illustrations": [
+        { "path": "focus-thumbnail-2", "isMockup": false },
+        { "path": "focus-700-800-1", "isMockup": false },
+        { "path": "focus-850-500", "isMockup": true }
+      ],
+      "liens": [],
+      "description_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras varius velit sit amet.",
+      "titre_2": "Refonte UI",
+      "description_2": "Aliquam sagittis, sem ac cursus fermentum, lacus ante posuere purus.",
+      "technologies": ["Figma", "Vue.js", "TailwindCSS"]
+    },
+    {
+      "id": 7,
+      "annees": "2019 - 2022",
+      "titre": "La Joute des Héros",
+      "type": "projet",
+      "domaines": ["design", "littérature", "médiation culturelle", "game"],
+      "illustrations": [
+        { "path": "joute-700-800", "isMockup": true },
+        { "path": "joute-850-500", "isMockup": true }
+      ],
+      "liens": [
+        {
+          "label": "Ils en parlent à l'UNIL",
+          "url": "https://www.unil.ch/news/fr/1651734284803"
+        }
+      ],
+      "description_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed libero enim.",
+      "titre_2": "Développement narratif",
+      "description_2": "Curabitur dictum risus vel vehicula viverra.",
+      "technologies": ["Illustrator", "InDesign", "Figma"]
+    },
+    {
+      "id": 13,
+      "annees": "2024 - 2025",
+      "titre": "Fully en transition",
+      "type": "projet",
+      "domaines": ["dev", "design"],
+      "illustrations": [
+        { "path": "fet-700-800", "isMockup": true },
+        { "path": "fet-850-500", "isMockup": true },
+        { "path": "fet-1", "isMockup": true },
+        { "path": "fet-2", "isMockup": true }
+      ],
+      "liens": [
+        {
+          "label": "Repository GitHub",
+          "url": "https://github.com/fullyentransition/fullyentransition.ch"
+        },
+        {
+          "label": "Site en ligne",
+          "url": "https://fullyentransition.ch"
+        }
+      ],
+      "description_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius sollicitudin orci.",
+      "titre_2": "Refonte technique",
+      "description_2": "Mauris sed erat sed neque volutpat posuere.",
+      "technologies": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "id": 17,
+      "annees": "2025",
+      "titre": "StoicMind",
+      "type": "projet",
+      "domaines": ["ui"],
+      "illustrations": [
+        { "path": "stoic-700-800", "isMockup": false },
+        { "path": "stoic-850-500", "isMockup": false },
+        { "path": "stoic-1", "isMockup": true },
+        { "path": "stoic-2", "isMockup": true }
+      ],
+      "liens": [],
+      "description_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere neque et mauris.",
+      "titre_2": "Minimalisme appliqué",
+      "description_2": "Praesent commodo elit non tortor accumsan.",
+      "technologies": ["Vue.js", "TailwindCSS", "TypeScript"]
+    },
+    {
+      "id": 18,
+      "annees": "2025",
+      "titre": "Artios : identité visuelle",
+      "type": "projet",
+      "domaines": ["design"],
+      "illustrations": [
+        { "path": "artios-700-800", "isMockup": false },
+        { "path": "artios-identite-visuelle-850-500", "isMockup": false },
+        { "path": "artios-identite-visuelle-1", "isMockup": false },
+        { "path": "artios-identite-visuelle-2", "isMockup": false }
+      ],
+      "liens": [],
+      "description_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla nibh sit amet.",
+      "titre_2": "Charte graphique",
+      "description_2": "Nulla facilisi. Donec interdum magna vel lacinia sagittis.",
+      "technologies": ["Illustrator", "Photoshop", "InDesign"]
+    },
+    {
+      "id": 19,
+      "annees": "2025",
+      "titre": "Mon portfolio",
+      "type": "projet",
+      "domaines": ["dev"],
+      "illustrations": [
+        { "path": "portfolio-thumbnail", "isMockup": false }],
+      "liens": [],
+      "description_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla nibh sit amet.",
+      "titre_2": "Charte graphique",
+      "description_2": "Nulla facilisi. Donec interdum magna vel lacinia sagittis.",
+      "technologies": ["Illustrator", "Photoshop", "InDesign"]
+    }
+  ],
+  "tags": {
+    "types": ["formation", "experience pro", "loisir", "projet"],
+    "domaines": [
+      "art",
+      "littérature",
+      "design",
+      "ui/ux",
+      "dev",
+      "médiation culturelle",
+      "game",
+      "marketing"
+    ]
+  }
+}
