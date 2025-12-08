@@ -37,6 +37,12 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Create 404 fallback for SPA
+        run: |
+          if [ -d "dist" ]; then
+            cp dist/index.html dist/404.html || true
+          fi
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
