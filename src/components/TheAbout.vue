@@ -238,7 +238,7 @@ import MainButton from './MainButton.vue'
                         <article class="pl-6 py-2">
                             <time class="text-sm text-gray-600 font-medium">2016–2018</time>
                             <h4 class="mt-1 font-semibold text-lg">
-                                Groupe R Management — Animatrice en médiation culturelle
+                                L'Éprouvette, UNIL — Animatrice en médiation culturelle
                             </h4>
                             <p class="text-base text-gray-700 mb-2">
                                 Développement d'un jeu de cartes pour la médiation culturelle.
