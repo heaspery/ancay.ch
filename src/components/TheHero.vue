@@ -5,8 +5,9 @@ import illustration from '../assets/illustration.png';
 </script>
 
 <template>
-    <div :style="{ backgroundImage: 'url(' + illustration + ')', backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }" class="container relative mx-auto pt-24 pb-12 mb-12 max-w-4xl flex flex-col items-center gap-12 min-h-[40vh] md:min-h-[60vh]">
-        <div class="">
+    <div class="container relative mx-auto pt-24 pb-12 mb-12 max-w-4xl flex flex-col items-center gap-12 min-h-[40vh] md:min-h-[60vh]">
+        <div class="absolute inset-0 opacity-70 pointer-events-none" :style="{ backgroundImage: 'url(' + illustration + ')', backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }"></div>
+        <div class="relative z-10">
             <h1 class="text-4xl md:text-6xl sm:text-l font-bold mb-12 text-black ">Bienvenue sur mon portfolio.</h1>
             <p class="sm:text-l md:text-2xl text-black mb-8">
                 Découvrez mon <strong>profil interdisciplinaire</strong> entre

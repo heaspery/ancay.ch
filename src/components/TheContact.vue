@@ -1,10 +1,13 @@
 <script setup>
 import MainButton from './MainButton.vue'
+import illustration from '../assets/illustration.png';
 </script>
 
 <template>
     <main class="container mx-auto max-w-4xl px-6 lg:px-8 py-16">
-        <section class="  bg-amber-50/60 px-6 py-8 md:px-10 md:py-10">
+        <section class="relative px-6 py-8 md:px-10 md:py-10">
+            <div class="absolute inset-0 opacity-70 pointer-events-none" :style="{ backgroundImage: 'url(' + illustration + ')', backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }"></div>
+            <div class="relative z-10">
             <div class="flex flex-col md:flex-row gap-10 md:items-start">
                 <!-- Texte principal -->
                 <div class="md:flex-1">
@@ -28,6 +31,7 @@ import MainButton from './MainButton.vue'
                     </div>
                 </div>
                 
+            </div>
             </div>
         </section>
     </main>

@@ -43,7 +43,7 @@ const link = project.links || "yes";
             <div v-if="project.illustrations[1]"
                 :class="project.illustrations[1].isMockup ? '' : 'border drop-shadow-2xl'">
                 <img :src="resolveIllustration(project.illustrations[1].path)" alt="Image du projet"
-                    class="w-full h-auto object-contain" />
+                    class="w-full h-auto object-contain max-w-2xl" />
             </div>
         </div>
 

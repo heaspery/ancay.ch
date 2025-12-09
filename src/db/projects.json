@@ -7,9 +7,9 @@
       "type": "projet",
       "domaines": ["Design"],
       "illustrations": [
-        { "path": "focus-thumbnail-2", "isMockup": false },
-        { "path": "focus-700-800-1", "isMockup": false },
+        { "path": "focus-700-800-2", "isMockup": true },
         { "path": "focus-850-500", "isMockup": true }
+        
       ],
       "liens": [],
       "description_1": "Focus est une application mobile visant à aider les étudiants à améliorer leur organisation et leur productivité grâce à un planning généré selon leurs échéances académiques.",
@@ -90,7 +90,8 @@
       "type": "projet",
       "domaines": ["Design"],
       "illustrations": [
-        { "path": "artios-700-800", "isMockup": false }
+        { "path": "artios-700-800", "isMockup": false },
+        { "path": "artios-2", "isMockup": false }
       ],
       "liens": [],
       "description_1": "L'entreprise Artios, spécialisée dans la conception de solutions web, m'a engagée pour créer son identité visuelle. J'ai développé un logo moderne, épuré et intemporel, grâce à une typographie robuste et l'utilisation de deux couleurs principales : un bleu gris et un rouge clair. Ces choix visent à refléter la fiabilité et l'innovation de l'entreprise, tout en jouant sur un aspect technologique rétro.",
@@ -105,7 +106,8 @@
       "type": "projet",
       "domaines": ["Développement", "Design"],
       "illustrations": [
-        { "path": "portfolio-thumbnail", "isMockup": false }],
+        { "path": "portfolio-thumbnail", "isMockup": false },
+        { "path": "frame4", "isMockup": true }],
       "liens": [
         {
           "label": "Repository GitHub",

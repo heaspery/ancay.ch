@@ -1,9 +1,6 @@
-```vue
 <script setup>
 import MainButton from './MainButton.vue'
-import TheMailWidget from './TheMailWidget.vue'
-import fetImg from '../assets/fet-700-800.png'
-import artiosImg from '../assets/artios-700-800.png'
+
 </script>
 
 <template>
@@ -34,15 +31,12 @@ import artiosImg from '../assets/artios-700-800.png'
             </div>
         </section>
 
-        <!-- Compétences (dropdown) -->
+        <!-- Compétences (always open) -->
         <section id="skills" class="mb-14">
-            <details class=" -xl p-6 md:p-7" open>
-                <summary class="flex items-baseline justify-between gap-4 cursor-pointer list-none">
-                    <h3 id="skills-heading" class="text-3xl font-semibold tracking-tight">
-                        Mes compétences
-                    </h3>
-                    
-                </summary>
+            <div class="p-6 md:p-7 rounded-lg ">
+                <h3 id="skills-heading" class="text-3xl font-semibold tracking-tight">
+                    Mes compétences
+                </h3>
 
                 <div class="mt-6 grid md:grid-cols-3 gap-8">
                     <!-- Techniques -->
@@ -157,10 +151,9 @@ import artiosImg from '../assets/artios-700-800.png'
                             Interpersonnelles & langues
                         </h4>
                         <ul class="space-y-1 text-base text-gray-700 mb-4">
-                            <li>Travail en équipe</li>
                             <li>Gestion de projet</li>
                             <li>Créativité</li>
-                            <li>Capacités rédactionnelles</li>
+                            <li>Capacités rédactionnelles, analytiques et critiques</li>
                         </ul>
                         <ul class="space-y-1 text-sm text-gray-600">
                             <li>Français&nbsp;: langue maternelle</li>
@@ -169,7 +162,7 @@ import artiosImg from '../assets/artios-700-800.png'
                         </ul>
                     </div>
                 </div>
-            </details>
+            </div>
         </section>
 
         <!-- Curriculum Vitae with collapsible subsections -->
@@ -179,7 +172,7 @@ import artiosImg from '../assets/artios-700-800.png'
             <div class="space-y-6">
                 <details class="border -xl p-6 md:p-7" open>
                     <summary class="cursor-pointer text-xl font-semibold">
-                        Formation
+                        Formations
                     </summary>
                     <div class="mt-4 grid md:grid-cols-1 gap-5">
                         <article class="pl-6 py-2">
@@ -274,4 +267,4 @@ import artiosImg from '../assets/artios-700-800.png'
     }
 }
 </style>
-```
+
