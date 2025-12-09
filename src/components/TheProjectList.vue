@@ -16,11 +16,11 @@ const selectedFilter = ref("Tous");
 
 // correspondance label bouton -> valeur dans "domaines"
 const domainMap = {
-    "Développement": "dev",
-    "Design": "design",
-    "Médiation culturelle": "médiation culturelle",
-    "Game design": "game",
-    "Littérature": "littérature"
+    "Développement": "Développement",
+    "Design": "Design",
+    "Médiation culturelle": "Médiation culturelle",
+    "Game design": "Game design",
+    "Littérature": "Littérature"
 };
 
 const filteredProjects = computed(() => {

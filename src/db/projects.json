@@ -90,10 +90,7 @@
       "type": "projet",
       "domaines": ["Design"],
       "illustrations": [
-        { "path": "artios-700-800", "isMockup": false },
-        { "path": "artios-identite-visuelle-850-500", "isMockup": false },
-        { "path": "artios-identite-visuelle-1", "isMockup": false },
-        { "path": "artios-identite-visuelle-2", "isMockup": false }
+        { "path": "artios-700-800", "isMockup": false }
       ],
       "liens": [],
       "description_1": "L'entreprise Artios, spécialisée dans la conception de solutions web, m'a engagée pour créer son identité visuelle. J'ai développé un logo moderne, épuré et intemporel, grâce à une typographie robuste et l'utilisation de deux couleurs principales : un bleu gris et un rouge clair. Ces choix visent à refléter la fiabilité et l'innovation de l'entreprise, tout en jouant sur un aspect technologique rétro.",
@@ -106,10 +103,15 @@
       "annees": "2025",
       "titre": "Mon portfolio",
       "type": "projet",
-      "domaines": ["Développement, Design"],
+      "domaines": ["Développement", "Design"],
       "illustrations": [
         { "path": "portfolio-thumbnail", "isMockup": false }],
-      "liens": [],
+      "liens": [
+        {
+          "label": "Repository GitHub",
+          "url": "https://github.com/heaspery/ancay.ch"
+        }
+      ],
       "description_1": "Ce site web a été conçu et développé par mes soins afin de présenter mon portfolio professionnel. J'ai opté pour une esthétique épurée et moderne, en utilisant une palette de couleurs douces et une typographie classique pour assurer une lisibilité optimale. Le design responsive garantit une expérience utilisateur fluide sur tous les types d'appareils, qu'il s'agisse de smartphones, tablettes ou ordinateurs de bureau.",
       "titre_2": "Représentation de l'interdisciplinarité",
       "description_2": "J'ai réalisé un graphique afin de représenter visuellement mon profil polyvalent mêlant conception, design et développement. Cette fusion symbolise mon approche interdisciplinaire et ma capacité à naviguer entre ces trois domaines complémentaires, tout en ayant pour ligne directrice les besoins des utilisateur·ice·s.",
