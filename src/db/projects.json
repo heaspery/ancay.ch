@@ -5,24 +5,24 @@
       "annees": "2024",
       "titre": "Focus",
       "type": "projet",
-      "domaines": ["design"],
+      "domaines": ["Design"],
       "illustrations": [
         { "path": "focus-thumbnail-2", "isMockup": false },
         { "path": "focus-700-800-1", "isMockup": false },
         { "path": "focus-850-500", "isMockup": true }
       ],
       "liens": [],
-      "description_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras varius velit sit amet.",
-      "titre_2": "Refonte UI",
-      "description_2": "Aliquam sagittis, sem ac cursus fermentum, lacus ante posuere purus.",
-      "technologies": ["Figma", "Vue.js", "TailwindCSS"]
+      "description_1": "Focus est une application mobile visant à aider les étudiants à améliorer leur organisation et leur productivité grâce à un planning généré selon leurs échéances académiques.",
+      "titre_2": "Dashboard pour les professeurs",
+      "description_2": "Un tableau de bord complémentaire permet aux professeurs de suivre les progrès de leurs étudiants et d'ajuster les plannings en conséquence.",
+      "technologies": ["Figma"]
     },
     {
       "id": 7,
       "annees": "2019 - 2022",
       "titre": "La Joute des Héros",
       "type": "projet",
-      "domaines": ["design", "littérature", "médiation culturelle", "game"],
+      "domaines": ["Design", "Médiation culturelle", "Jeu"],
       "illustrations": [
         { "path": "joute-700-800", "isMockup": true },
         { "path": "joute-850-500", "isMockup": true }
@@ -33,17 +33,17 @@
           "url": "https://www.unil.ch/news/fr/1651734284803"
         }
       ],
-      "description_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed libero enim.",
-      "titre_2": "Développement narratif",
-      "description_2": "Curabitur dictum risus vel vehicula viverra.",
-      "technologies": ["Illustrator", "InDesign", "Figma"]
+      "description_1": "La Joute des Héros est un jeu de cartes éducatif conçu pour initier les joueurs à la littérature médiévale. Élaboré durant mon bachelor en Lettres avec une équipe d'étudiant·e·s, je me suis chargée, entre autres, du design des cartes et de l'univers du jeu. Le jeu repose sur le concept original du 'Bang' et est composé de plus de 50 cartes.",
+      "titre_2": "Présentation et diffusion",
+      "description_2": "À l'origine développé pour un cours universitaire, notre équipe a ensuite été engagée par le service de médiation culturelle de l'Université de Lausanne, l'Éprouvette, afin de le développer davantage et de le présenter au public. Nous avons a plusieurs reprises présenté le jeu sous forme d'atelier dans des classes d'écoles publiques du canton de Vaud et lors des portes ouvertes de l'Université.",
+      "technologies": ["Illustrator", "InDesign", "Procreate"]
     },
     {
       "id": 13,
       "annees": "2024 - 2025",
       "titre": "Fully en transition",
       "type": "projet",
-      "domaines": ["dev", "design"],
+      "domaines": ["Développement", "Design"],
       "illustrations": [
         { "path": "fet-700-800", "isMockup": true },
         { "path": "fet-850-500", "isMockup": true },
@@ -60,17 +60,17 @@
           "url": "https://fullyentransition.ch"
         }
       ],
-      "description_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius sollicitudin orci.",
-      "titre_2": "Refonte technique",
-      "description_2": "Mauris sed erat sed neque volutpat posuere.",
-      "technologies": ["HTML", "CSS", "JavaScript"]
+      "description_1": "Fully en transition est une association promouvant la transition écologique et sociale dans la commune de Fully (VS). Membre depuis 2024, j'ai le plaisir d'avoir conçu l'identité visuelle de l'association ainsi que développé son site web vitrine. Le logo, a été insipiré par l'abeille, insecte social, solidaire et résilient.",
+      "titre_2": "Un calendrier riche d'évènements",
+      "description_2": "À la vue de l'abondance d'activités proposées par l'association, j'ai mis en place un calendrier interactif permettant aux membres de consulter les évènements à venir et de s'y inscrire facilement. Étant moi même chargée de mettre à jour le site, l'utlisation de la technologie Hugo m'a permis de créer des templates réutilisables pour les différentes pages du site. Cela me facilite grandement la tâche lors de l'ajout de nouveaux contenus et permet au site d'être léger et rapide.",
+      "technologies": ["Hugo", "Bulma.io"]
     },
     {
       "id": 17,
       "annees": "2025",
       "titre": "StoicMind",
-      "type": "projet",
-      "domaines": ["ui"],
+      "type": "projet", 
+      "domaines": ["Design"],
       "illustrations": [
         { "path": "stoic-700-800", "isMockup": false },
         { "path": "stoic-850-500", "isMockup": false },
@@ -78,17 +78,17 @@
         { "path": "stoic-2", "isMockup": true }
       ],
       "liens": [],
-      "description_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere neque et mauris.",
-      "titre_2": "Minimalisme appliqué",
-      "description_2": "Praesent commodo elit non tortor accumsan.",
-      "technologies": ["Vue.js", "TailwindCSS", "TypeScript"]
+      "description_1":"Dans le cadre d'un cours de design d'interface, j'ai créé les visuels d'une application mobile fictive. Celle-ci, nommée StoicMind, s'inspire de la philosophie stoïcienne pour guider les utilisateur·ice·s dans une vie plus paisible. Elle leur prodigue au quotidien des citations stoïciennes et des exercices. Pour cet interface, j'ai opté pour une palette de couleurs douces et apaisantes, ainsi qu'une typographie classique afin de favoriser la sérénité.",
+      "titre_2": "Une évolution colorée",
+      "description_2": "Dans l'application, les utilisateur·ice·s peuvent suivre leur progression à travers des niveaux d'émotions symbolisés par des couleurs. En accomplissant des exercices et en intégrant les principes stoïciens dans leur vie quotidienne, ils·elles voient leur niveau évoluer, passant de teintes plus sombres à des couleurs plus lumineuses, reflétant ainsi leur cheminement vers la sérénité.  ",
+      "technologies": ["Figma"]
     },
     {
       "id": 18,
       "annees": "2025",
       "titre": "Artios : identité visuelle",
       "type": "projet",
-      "domaines": ["design"],
+      "domaines": ["Design"],
       "illustrations": [
         { "path": "artios-700-800", "isMockup": false },
         { "path": "artios-identite-visuelle-850-500", "isMockup": false },
@@ -96,24 +96,24 @@
         { "path": "artios-identite-visuelle-2", "isMockup": false }
       ],
       "liens": [],
-      "description_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla nibh sit amet.",
-      "titre_2": "Charte graphique",
-      "description_2": "Nulla facilisi. Donec interdum magna vel lacinia sagittis.",
-      "technologies": ["Illustrator", "Photoshop", "InDesign"]
+      "description_1": "L'entreprise Artios, spécialisée dans la conception de solutions web, m'a engagée pour créer son identité visuelle. J'ai développé un logo moderne, épuré et intemporel, grâce à une typographie robuste et l'utilisation de deux couleurs principales : un bleu gris et un rouge clair. Ces choix visent à refléter la fiabilité et l'innovation de l'entreprise, tout en jouant sur un aspect technologique rétro.",
+      "titre_2": "L'utilisateur au centre",
+      "description_2": "Une des valeurs fondamentales d'Artios est de placer l'utilisateur au centre de ses préoccupations. Pour illustrer cette philosophie dans l'identité visuelle, j'ai représenté un·e utilisateur·ice stylisé·e au sein de la lettre 'A' du logo. Cette intégration symbolise l'engagement d'Artios envers ses clients et son approche centrée sur l'expérience utilisateur.",
+      "technologies": ["Illustrator"]
     },
     {
       "id": 19,
       "annees": "2025",
       "titre": "Mon portfolio",
       "type": "projet",
-      "domaines": ["dev"],
+      "domaines": ["Développement, Design"],
       "illustrations": [
         { "path": "portfolio-thumbnail", "isMockup": false }],
       "liens": [],
-      "description_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla nibh sit amet.",
-      "titre_2": "Charte graphique",
-      "description_2": "Nulla facilisi. Donec interdum magna vel lacinia sagittis.",
-      "technologies": ["Illustrator", "Photoshop", "InDesign"]
+      "description_1": "Ce site web a été conçu et développé par mes soins afin de présenter mon portfolio professionnel. J'ai opté pour une esthétique épurée et moderne, en utilisant une palette de couleurs douces et une typographie classique pour assurer une lisibilité optimale. Le design responsive garantit une expérience utilisateur fluide sur tous les types d'appareils, qu'il s'agisse de smartphones, tablettes ou ordinateurs de bureau.",
+      "titre_2": "Représentation de l'interdisciplinarité",
+      "description_2": "J'ai réalisé un graphique afin de représenter visuellement mon profil polyvalent mêlant conception, design et développement. Cette fusion symbolise mon approche interdisciplinaire et ma capacité à naviguer entre ces trois domaines complémentaires, tout en ayant pour ligne directrice les besoins des utilisateur·ice·s.",
+      "technologies": ["Vue.js", "Tailwind CSS", "Github Pages"]
     }
   ],
   "tags": {

@@ -41,9 +41,7 @@ import artiosImg from '../assets/artios-700-800.png'
                     <h3 id="skills-heading" class="text-3xl font-semibold tracking-tight">
                         Mes compétences
                     </h3>
-                    <p class="text-sm text-gray-500">
-                        Développement front-end, intégration, design produit
-                    </p>
+                    
                 </summary>
 
                 <div class="mt-6 grid md:grid-cols-3 gap-8">

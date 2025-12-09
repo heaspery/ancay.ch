@@ -20,10 +20,11 @@ const link = project.links || "yes";
         </RouterLink>
     </div>
     <section v-if="project"
-        class="container mx-auto px-4 bg-amber-50 mb-12 pt-12 pb-12 gap-2 md:gap-8 max-w-4xl flex flex-col items-center">
-        <div class="flex flex-col md:flex-row gap-2 md:gap-8 items-start">
+        class="container mx-auto px-4 bg-amber-50 pt-12 pb-12 md:gap-12 max-w-4xl flex flex-col items-center">
+        
+        <div class="flex flex-col md:flex-row gap-2 md:gap-12 items-start">
             <div class="basis-64 flex flex-col gap-6">
-                <h1 class="text-4xl font-bold">ads lakdflkajfl dfadfgafafdsfasfsa</h1>
+                <h1 class="text-4xl font-bold">{{ project.titre }} </h1>
                 <h2 class="text-2xl">{{ project.annees }} / {{ domaines }}</h2>
                 <h3><strong>Technologies utilisées</strong>: {{ project.technologies.join(",") }}</h3>
                 <p class="mb-4">
@@ -38,7 +39,7 @@ const link = project.links || "yes";
             </div>
         </div>
 
-        <div>
+        <div class="mt-2 md:mt-12">
             <div v-if="project.illustrations[1]"
                 :class="project.illustrations[1].isMockup ? '' : 'border drop-shadow-2xl'">
                 <img :src="resolveIllustration(project.illustrations[1].path)" alt="Image du projet"
@@ -46,7 +47,7 @@ const link = project.links || "yes";
             </div>
         </div>
 
-        <div class="flex flex-col items-start gap-2 mt-8 mb-8">
+        <div class="flex flex-col items-start gap-2 mt-8 mb-2">
             <h2 class="text-2xl">{{ project.titre_2 }}</h2>
             <p>
                 {{ project.description_2 }}
@@ -66,8 +67,7 @@ const link = project.links || "yes";
             </div>
         </div>
 
-        <div v-if="project.liens.length > 0" class="flex justify-center mt-6">
-
+        <div v-if="project.liens.length > 0" class="flex justify-center mt-2">
             <div v-for:="(link, index) in project.liens" :key="index" class="mx-4">
                 <MainButton class="mx-auto mt-6">
                     <a :href="link.url">{{ link.label }}</a>

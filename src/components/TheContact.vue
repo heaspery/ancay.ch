@@ -8,7 +8,7 @@ import MainButton from './MainButton.vue'
             <div class="flex flex-col md:flex-row gap-10 md:items-start">
                 <!-- Texte principal -->
                 <div class="md:flex-1">
-                    <h1 class="text-4xl md:text-5xl font-bold tracking-tight">Contact</h1>
+                    <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-8">Contact</h1>
                     <p class="mt-4 text-lg text-gray-800 leading-relaxed">
                         Je suis disponible pour des projets de développement front-end, d’intégration
                         et de design produit, ainsi que pour des collaborations mêlant design et médiation culturelle.
@@ -18,7 +18,7 @@ import MainButton from './MainButton.vue'
                         m’écrire.
                     </p>
 
-                    <div class="mt-6">
+                    <div class="mt-12">
                         <a href="mailto:mathilde@ancay.ch">
                             <MainButton type="button">
                                 Écrire à mathilde@ancay.ch
