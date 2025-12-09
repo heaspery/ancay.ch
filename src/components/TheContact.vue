@@ -1,14 +1,17 @@
 <script setup>
 import MainButton from './MainButton.vue'
+import illustration from '../assets/illustration.png';
 </script>
 
 <template>
     <main class="container mx-auto max-w-4xl px-6 lg:px-8 py-16">
-        <section class="  bg-amber-50/60 px-6 py-8 md:px-10 md:py-10">
+        <section class="relative px-6 py-8 md:px-10 md:py-10">
+            <div class="absolute inset-0 opacity-70 pointer-events-none" :style="{ backgroundImage: 'url(' + illustration + ')', backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }"></div>
+            <div class="relative z-10">
             <div class="flex flex-col md:flex-row gap-10 md:items-start">
                 <!-- Texte principal -->
                 <div class="md:flex-1">
-                    <h1 class="text-4xl md:text-5xl font-bold tracking-tight">Contact</h1>
+                    <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-8">Contact</h1>
                     <p class="mt-4 text-lg text-gray-800 leading-relaxed">
                         Je suis disponible pour des projets de développement front-end, d’intégration
                         et de design produit, ainsi que pour des collaborations mêlant design et médiation culturelle.
@@ -18,7 +21,7 @@ import MainButton from './MainButton.vue'
                         m’écrire.
                     </p>
 
-                    <div class="mt-6">
+                    <div class="mt-12">
                         <a href="mailto:mathilde@ancay.ch">
                             <MainButton type="button">
                                 Écrire à mathilde@ancay.ch
@@ -28,6 +31,7 @@ import MainButton from './MainButton.vue'
                     </div>
                 </div>
                 
+            </div>
             </div>
         </section>
     </main>
