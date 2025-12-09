@@ -46,7 +46,7 @@ const filteredProjects = computed(() => {
         <p class="mt-4 font-normal">
             Voici un aperçu de tous mes projets, réalisés durant ma formation et en autonomie.
         </p>
-        <div class="flex justify-center gap-4 mt-8  ">
+        <div class="flex justify-center gap-4 mt-8 flex-wrap">
             <button v-for="(filter, index) in filters" :key="index" class=" hover:bg-black hover:text-amber-50 px-4 py-2 border cursor-pointer"
                 :class="selectedFilter === filter ? 'bg-black text-white' : ''" @click="selectedFilter = filter">
                 {{ filter }}
