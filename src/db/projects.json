@@ -118,6 +118,68 @@
       "titre_2": "Représentation de l'interdisciplinarité",
       "description_2": "J'ai réalisé un graphique afin de représenter visuellement mon profil polyvalent mêlant conception, design et développement. Cette fusion symbolise mon approche interdisciplinaire et ma capacité à naviguer entre ces trois domaines complémentaires, tout en ayant pour ligne directrice les besoins des utilisateur·ice·s.",
       "technologies": ["Vue.js", "Tailwind CSS", "Github Pages"]
+    },
+    {
+      "id": 20,
+      "annees": "2026",
+      "titre": "Drum Hero Arduino",
+      "type": "projet",
+      "domaines": ["Développement"],
+      "illustrations": [
+        { "path": "schema_final_version", "isMockup": false},
+        { "path": "arduino", "isMockup": false }
+      ],
+      "liens": [
+        {
+          "label": "Repository GitHub",
+          "url": "https://github.com/heaspery/drum-hero-arduino"
+        }
+      ],
+      "description_1": "Dans le cadre d'un cours d'Arduino, j'ai développé un jeu de rythme inspiré de Guitar Hero. Le jeu utilise une carte Arduino avec des capteurs sensoriels pour détecter les frappes sur des pads de batterie, qui sont ensuite traduites en actions dans le jeu. J'ai utilisé P5.js pour créer l'interface graphique du jeu, offrant une expérience interactive et immersive aux joueurs.",
+       "titre_2": "Les bandes de leds comme indicateurs visuels",
+      "description_2": "Pour indiquer aux joueurs l'instant où ils doivent frapper, des bandes de leds sont disposées à la verticale de l'objet, en face de chaque pad. Ces leds s'allument en synchronisation avec la musique, créant ainsi un système de repères visuels qui guide les joueurs tout au long du jeu.",
+      "technologies": ["Arduino", "P5.js", "Github"]
+    },
+    {
+      "id": 21,
+      "annees": "2026",
+      "titre": "Conférence à la BackstageCon",
+      "type": "projet",
+      "domaines": ["Développement"],
+      "illustrations": [
+        { "path": "backstage", "isMockup": false}
+      ],
+      "liens": [
+        {
+          "label": "Vidéo de la conférence",
+          "url": "https://www.youtube.com/watch?v=-tTJeEdQIHU&list=PLj6h78yzYM2Py6kX3NDSsM53wAzF2JkV7&index=3"
+        }
+      ],
+      "description_1": "J'ai eu l'opportunité de participer à la BackstageCon, une conférence dédiée à la communauté de développeurs Backstage. Lors de cet événement, j'ai présenté un plugin développé lors d'un stage que j'avais fait chez Avalia Systems.",
+       "titre_2": "Un moniteur de satisfaction",
+      "description_2": "Ce plugin permet de suivre la satisfaction des employé·e·s à travers des sondages réguliers. Les résultats sont affichés de manière visuelle à plusieurs niveaux, offrant aux équipes une compréhension claire de l'état d'esprit général au sein de l'entreprise. Cette initiative vise à favoriser un environnement de travail positif et à encourager la communication au sein des équipes.",
+      "technologies": ["Backstage", "React", "TypeScript"]
+    },
+    {
+      "id": 22,
+      "annees": "2025",
+      "titre": "Guess the place",
+      "type": "projet",
+      "domaines": ["Développement"],
+      "illustrations": [
+        { "path": "guesstheplace1", "isMockup": false},
+        { "path": "guesstheplace3", "isMockup": false}
+      ],
+      "liens": [
+        {
+          "label": "Lien vers le projet en ligne (Peu nécessiter un  bref temps de chargement, dû à la version gratuite de l'hébergement)",
+          "url": "https://www.guesstheplace.ch/#/login"
+        }
+      ],
+      "description_1": "Guess the place est un jeu de devinettes géographiques en ligne, inspiré du concept de GeoGuessr. Les joueurs sont placés dans un lieu aléatoire à travers la Suisse et doivent deviner leur emplacement en se basant sur les indices visuels présents dans l'environnement. Ceux-ci ont la possibilité d'ajouter eux-mêmes des photos de lieux, contribuant ainsi à enrichir la diversité des emplacements disponibles dans le jeu.",
+       "titre_2": "Développement techniques",
+      "description_2": "Ce jeu a été développé en équipe de quatre personnes dans le cadre de deux cours. Je me suis occupée principalement de développer une partie de l'API du projet, en utilisant Node.js et Express pour gérer les requêtes et les données des utilisateurs. Je me suis occupée de l'entièreté de l'authentification, basé sur un système de tokens JWT et la gestion des rôles d'utilisateurs. J'ai aussi largement contribué au développement du frontend, en utilisant Vue.js (router, store, composants) et Tailwind CSS pour le design de l'interface.",
+      "technologies": ["Node.js", "Express", "Vue.js", "Tailwind CSS", "JWT"]
     }
   ],
   "tags": {

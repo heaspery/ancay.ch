@@ -39,11 +39,6 @@ const close = () => (open.value = false)
                       :class="{ 'font-bold': $route.path === '/projects' }">Projets</RouterLink>
                 </li>
                 <li>
-                    <RouterLink to="/about" class="hover:underline"
-                      :class="{ 'font-bold': $route.path === '/about' }"
-                      >À propos</RouterLink>
-                </li>
-                <li>
                     <RouterLink to="/contact" class="hover:underline"
                       :class="{ 'font-bold': $route.path === '/contact' }"
                       >Contact</RouterLink>
@@ -57,10 +52,6 @@ const close = () => (open.value = false)
                 <li>
                     <RouterLink to="/projects" class="block py-2" @click="close"
                       :class="{ 'font-bold': $route.path === '/projects' }">Projets</RouterLink>
-                </li>
-                <li>
-                    <RouterLink to="/about" class="block py-2" @click="close"
-                      :class="{ 'font-bold': $route.path === '/about' }">À propos</RouterLink>
                 </li>
                 <li>
                     <RouterLink to="/contact" class="block py-2" @click="close"

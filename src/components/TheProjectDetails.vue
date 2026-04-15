@@ -9,8 +9,10 @@ const route = useRoute();
 const id = parseInt(route.params.id);
 
 const project = data.portfolio.find((p) => p.id === id);
-const domaines = project.domaines.join(", ");
-const link = project.links || "yes";
+const domaines = project?.domaines?.join(", ") || "";
+const technologies = Array.isArray(project?.technologies)
+    ? project.technologies.join(", ")
+    : "Non spécifiées";
 </script>
 
 <template>
@@ -26,7 +28,7 @@ const link = project.links || "yes";
             <div class="basis-64 flex flex-col gap-6">
                 <h1 class="text-4xl font-bold">{{ project.titre }} </h1>
                 <h2 class="text-2xl">{{ project.annees }} / {{ domaines }}</h2>
-                <h3><strong>Technologies utilisées</strong>: {{ project.technologies.join(",") }}</h3>
+                <h3><strong>Technologies utilisées</strong>: {{ technologies }}</h3>
                 <p class="mb-4">
                     {{ project.description_1 }}
                 </p>

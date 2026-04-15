@@ -6,7 +6,7 @@ import About from '../components/TheAbout.vue'
 import Contact from '../components/TheContact.vue'  
 
 const routes = [
-  { path: '/', component: Home },
+  { path: '/', component: About },
   { path: '/projects', component: TheProjectList },
   { path: '/projects/:id', component: TheProjectDetails },
   { path: '/about', component: About },

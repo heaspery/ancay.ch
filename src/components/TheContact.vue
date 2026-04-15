@@ -13,8 +13,7 @@ import illustration from '../assets/illustration.png';
                 <div class="md:flex-1">
                     <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-8">Contact</h1>
                     <p class="mt-4 text-lg text-gray-800 leading-relaxed">
-                        Je suis disponible pour des projets de développement front-end, d’intégration
-                        et de design produit, ainsi que pour des collaborations mêlant design et médiation culturelle.
+                       Je suis disponible pour des projets de développement web, frontend et backend, de conception d’expériences interactives et de jeux, ainsi que pour des collaborations mêlant développement et médiation culturelle.
                     </p>
                     <p class="mt-3 text-base text-gray-700">
                         Que vous ayez une idée claire ou simplement l’envie de discuter d’une piste, n’hésitez pas à
