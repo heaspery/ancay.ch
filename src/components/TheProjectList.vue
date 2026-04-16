@@ -1,5 +1,6 @@
 <script setup>
-import { ref, computed } from "vue";
+import { ref, computed, watch } from "vue";
+import { useRoute, useRouter } from "vue-router";
 import data from "../db/projects.json";
 import resolveIllustration from "../utils/illustrationsResolver";
 
@@ -12,7 +13,13 @@ const filters = [
     "Médiation culturelle",
 ];
 
-const selectedFilter = ref("Tous");
+const route = useRoute();
+const router = useRouter();
+
+const normalizeFilter = (value) =>
+    typeof value === "string" && filters.includes(value) ? value : "Tous";
+
+const selectedFilter = ref(normalizeFilter(route.query.filter));
 
 // correspondance label bouton -> valeur dans "domaines"
 const domainMap = {
@@ -34,6 +41,28 @@ const filteredProjects = computed(() => {
     return preview.filter(project =>
         project.domaines.includes(domainKey)
     );
+});
+
+watch(() => route.query.filter, (newFilter) => {
+    const normalized = normalizeFilter(newFilter);
+    if (selectedFilter.value !== normalized) {
+        selectedFilter.value = normalized;
+    }
+});
+
+watch(selectedFilter, (newFilter) => {
+    const current = normalizeFilter(route.query.filter);
+    if (newFilter === current) return;
+
+    const query = { ...route.query };
+
+    if (newFilter === "Tous") {
+        delete query.filter;
+    } else {
+        query.filter = newFilter;
+    }
+
+    router.replace({ query });
 });
 </script>
 
@@ -57,7 +86,7 @@ const filteredProjects = computed(() => {
         <div v-for="(project, index) in filteredProjects" :key="index"
             class="text-center lg:basis-1/4 md:basis-1/3 sm:basis-full shrink-0 bg-amber-50 border hover:drop-shadow-lg">
 
-            <router-link :to="'/projects/' + project.id" class="inline-flex items-center text-sm font-medium">
+            <router-link :to="{ path: '/projects/' + project.id, query: { ...route.query } }" class="inline-flex items-center text-sm font-medium">
                 <img class=" w-full object-cover" :src="resolveIllustration(project.illustrations[0].path)" alt="Image du projet" />
             </router-link>
             <div class="p-5 wrap overflow-hidden text-lg text-ellipsis">

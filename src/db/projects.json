@@ -135,9 +135,9 @@
           "url": "https://github.com/heaspery/drum-hero-arduino"
         }
       ],
-      "description_1": "Dans le cadre d'un cours d'Arduino, j'ai développé un jeu de rythme inspiré de Guitar Hero. Le jeu utilise une carte Arduino avec des capteurs sensoriels pour détecter les frappes sur des pads de batterie, qui sont ensuite traduites en actions dans le jeu. J'ai utilisé P5.js pour créer l'interface graphique du jeu, offrant une expérience interactive et immersive aux joueurs.",
+      "description_1": "Dans le cadre d'un cours d'Arduino, j'ai développé un jeu de rythme inspiré de Guitar Hero. Le jeu utilise une carte Arduino avec des capteurs sensoriels en tant que pads de 'batterie', qui sont ensuite traduites en actions dans le jeu. J'ai utilisé P5.js pour créer l'interface graphique du jeu, offrant une expérience interactive et immersive aux joueurs.",
        "titre_2": "Les bandes de leds comme indicateurs visuels",
-      "description_2": "Pour indiquer aux joueurs l'instant où ils doivent frapper, des bandes de leds sont disposées à la verticale de l'objet, en face de chaque pad. Ces leds s'allument en synchronisation avec la musique, créant ainsi un système de repères visuels qui guide les joueurs tout au long du jeu.",
+      "description_2": "Pour indiquer aux joueurs l'instant où ils doivent frapper, des bandes de leds sont disposées à la verticale de l'objet, en face de chaque pad. Ces leds s'allument en défilant le long des bandes, créant ainsi un système de repères visuels qui guide les joueurs à l'instant où ils doivent interagir avec les pads. Si l'essai est réussi, un son s'allume, créant une mélodie.",
       "technologies": ["Arduino", "P5.js", "Github"]
     },
     {
@@ -176,8 +176,8 @@
           "url": "https://www.guesstheplace.ch/#/login"
         }
       ],
-      "description_1": "Guess the place est un jeu de devinettes géographiques en ligne, inspiré du concept de GeoGuessr. Les joueurs sont placés dans un lieu aléatoire à travers la Suisse et doivent deviner leur emplacement en se basant sur les indices visuels présents dans l'environnement. Ceux-ci ont la possibilité d'ajouter eux-mêmes des photos de lieux, contribuant ainsi à enrichir la diversité des emplacements disponibles dans le jeu.",
-       "titre_2": "Développement techniques",
+      "description_1": "Guess the place est un jeu de devinettes géographiques en ligne, inspiré du concept de GeoGuessr. Une photo est montrée aux joueur·e·s et ceux-ci doivent deviner leur emplacement en se basant sur les indices visuels présents sur l'image. Ceux-ci ont la possibilité d'ajouter eux-mêmes des photos de lieux, contribuant ainsi à enrichir la diversité des emplacements disponibles dans le jeu.",
+       "titre_2": "Développement technique et collaboration en équipe",
       "description_2": "Ce jeu a été développé en équipe de quatre personnes dans le cadre de deux cours. Je me suis occupée principalement de développer une partie de l'API du projet, en utilisant Node.js et Express pour gérer les requêtes et les données des utilisateurs. Je me suis occupée de l'entièreté de l'authentification, basé sur un système de tokens JWT et la gestion des rôles d'utilisateurs. J'ai aussi largement contribué au développement du frontend, en utilisant Vue.js (router, store, composants) et Tailwind CSS pour le design de l'interface.",
       "technologies": ["Node.js", "Express", "Vue.js", "Tailwind CSS", "JWT"]
     }
